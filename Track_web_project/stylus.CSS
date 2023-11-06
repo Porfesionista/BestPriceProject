@@ -1,0 +1,78 @@
+/* Estilos para el cuerpo de la página */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Estilos para enlaces */
+a {
+    text-decoration: none;
+}
+
+/* Estilos para botones */
+button {
+    border: none;
+}
+
+/* Estilos para la sección de introducción */
+.Int_1 {
+    padding: 10px;
+    border: 3px solid rgb(37, 9, 2);
+    background-color: rgb(56, 4, 14);
+}
+
+.Logo {
+    height: auto;
+}
+
+/* Estilos para la sección de búsqueda */
+.SEARCH_ENGINE_ID {
+    padding-top: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search {
+    height: 30px;
+    width: 500px;
+    padding: 5px;
+    font-size: 15px;
+    border: 2px solid rgb(37, 9, 2);
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Estilos CSS para las opciones de navegación */
+.Ssection_Options {
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 200px; /* Ajusta la altura de la sección según tus necesidades */
+}
+.Options012{
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Hacer que las opciones se muestren en línea */
+}
+
+nav li {
+    margin: 10px; /* Agregar espacio entre las opciones */
+    border: 2px solid #333; /* Agregar bordes a las opciones */
+    padding: 10px; /* Espacio interno para que las opciones estén dentro de cuadrados */
+}
+
+nav a {
+    text-decoration: none; /* Quitar subrayado de los vínculos */
+    color: #333; /* Color del texto de las opciones */
+}
